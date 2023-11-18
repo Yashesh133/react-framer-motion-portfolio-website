@@ -30,7 +30,7 @@ const Sidebar = () => {
       className="flex flex-col items-center justify-center bg-white text-black"
     >
       <motion.div
-        className="fixed top-0 left-0 bottom-0 w-80 bg-white"
+        className="fixed top-0 left-0 bottom-0 w-80 bg-white z-50"
         variants={variant}
       >
         <Links />

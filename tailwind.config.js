@@ -10,6 +10,7 @@ module.exports = {
         'mountain': "url('/src/assets/mountains.png')",
         'planet': "url('/src/assets/planets.png')",
         'stars': "url('/src/assets/stars.png')",
+        'sun' : "url('/src/assets/sun.png')",
       }
     },
   },

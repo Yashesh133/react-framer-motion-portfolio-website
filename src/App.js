@@ -2,6 +2,7 @@ import "./App.css";
 import Hero from "./Comonents/Hero/Hero";
 import Navbar from "./Comonents/Navbar/Navbar";
 import Parallax from "./Comonents/Parallax/Parallax";
+import Services from "./Comonents/Services/Services";
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
       <section className="h-screen snap-center" id="Services">
         <Parallax type="service" />
       </section>
-      <section className="h-screen snap-center">Service</section>
+      <section className="h-screen snap-center">
+        <Services />
+      </section>
       <section className="h-screen snap-center" id="Portfolio">
         <Parallax type="portfolio" />
       </section>
